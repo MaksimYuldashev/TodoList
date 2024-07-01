@@ -6,7 +6,7 @@ import EditTodoPage from '../views/EditTodoPage.vue';
 // Создаем объект routes, добавляем в него страницы для возможности перехода
 const routes: Array<RouteRecordRaw> = [
     {
-        path: '',
+        path: '/TodoList',
         component: Base,
         children: [
             {
